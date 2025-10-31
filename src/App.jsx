@@ -49,12 +49,12 @@ function App() {
             />
             {/* <div className="pointer-events-none absolute -inset-1 grid-columns-bg"></div> */}
           </div>
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-x-[50px] text-white">
+          <div className="flex lg:flex-row flex-col items-center justify-between">
+            <div className="flex min-[1200px]:flex-row flex-col items-center gap-x-[50px] text-white">
               <button className="bg-[#FF850F] w-[189px] h-[42px] rounded-[40px] text-[16px]">
                 FREE CONSULTATION
               </button>
-              <div className="flex gap-x-[20px]">
+              <div className="flex md:flex-row flex-col gap-x-[20px]">
                 <p className="text-[14px] font-bold border-b-[3px] pb-2">
                   EXPERTISE
                 </p>
@@ -81,7 +81,7 @@ function App() {
           </div>
           {/* section 2 */}
           <div className="flex flex-col bg-white pt-[28px] relative">
-            <div className="flex px-[34px] pb-[60px] justify-between">
+            <div className="flex px-[34px] pb-[60px] justify-center md:flex-row flex-col gap-x-20">
               <div>
                 <img src="./freepik.png" alt="" />
                 <div className="text-black mt-[32px] text-[20px] font-bold">
@@ -122,7 +122,7 @@ function App() {
                   </ul>
                 </div>
               </div>
-              <div className="flex gap-x-10">
+              <div className="flex gap-x-10 min-[1200px]:flex-row flex-col">
                 <div className="mt-4">
                   <span className="font-bold leading-[30px] mb-0 text-[16px] px-2 py-1 rounded text-white bg-[#00539C] ">
                     ENGINEERING
@@ -143,13 +143,13 @@ function App() {
                     ))}
                   </ul>
                 </div>
-                <div className="bg-[#00539C] h-[534px] w-[2.5px]"></div>
+                <div className="bg-[#00539C] h-[534px] w-[2.5px] hidden min-[1200px]:block"></div>
                 <div className="mt-4 min-w-[400px]">
                   <p className="text-[#00539C] font-bold text-[16px]">
                     ENGINEERING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <span className="border-b-2 w-[300px] inline-block border-[#00539C]"></span>
                   </p>
-                  <div className="flex justify-between mt-[70px] font-medium text-[#00539C] text-[12px]">
+                  <div className="flex justify-between md:flex-row flex-col mt-[70px] font-medium text-[#00539C] text-[12px]">
                     <div className="flex flex-col gap-y-[24px]">
                       {leftEngs.map((leftEng, index) => (
                         <p key={`${leftEng}-${index}`}>{leftEng}</p>
