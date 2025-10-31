@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <div className="">
-        <div className="bg-[#141429] px-16 pt-8 relative ">
+        <div className="bg-[#141429] px-16 pt-8 relative pb-32 ">
           <div className="pointer-events-none absolute -inset-1 grid-columns-bg mx-16 z-50"></div>
           <div className="flex lg:flex-row flex-col items-center justify-between">
             <div className="flex min-[1200px]:flex-row flex-col items-center gap-x-[50px] text-white">
@@ -72,7 +72,7 @@ function App() {
             <img src="./designdot-title.png" alt="" />
           </div>
           {/* section 2 */}
-          <div className="flex flex-col bg-white pt-[28px] relative">
+          <div className="flex flex-col bg-white pt-[28px]  relative">
             <div className="flex px-[34px] pb-[60px] justify-center md:flex-row flex-col gap-x-20">
               <div>
                 <img src="./freepik.png" alt="" />
@@ -156,7 +156,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="relative md:h-[120px] h-[320px] w-full overflow-hidden ">
+            <div className="relative md:h-[120px] h-[320px] w-full overflow-hidden z-10">
               {/* Footer image filling the container */}
               <img
                 src="./footer.png"
@@ -197,7 +197,7 @@ function App() {
           </div>
         </div>
         <div className="h-screen px-16 relative">
-          <div className="absolute md:-top-28 -top-10 left-1/2 -translate-x-1/2 max-w-[85%] w-full -z-10">
+          <div className="absolute md:-top-60 -top-20 left-1/2 -translate-x-1/2 max-w-[85%] w-full z-0">
             <img
               src="./bottom-image.png"
               alt=""
