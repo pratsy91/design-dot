@@ -95,21 +95,24 @@ function App() {
                       Dedicated Teams of Developers
                       <br />
                       <span className="font-normal text-[16px] leading-tight block lowercase">
-                        Hire developers who are committed to your project.
+                        <span className="uppercase">H</span>ire developers who
+                        are committed to your project.
                       </span>
                     </li>
                     <li className="leading-none uppercase">
                       Outsource your work
                       <br />
                       <span className="font-normal text-[16px] leading-tight block lowercase">
-                        Get a solution that is tailored to your needs.
+                        <span className="uppercase">G</span>et a solution that
+                        is tailored to your needs.
                       </span>
                     </li>
                     <li className="leading-none uppercase">
                       staff augmentation
                       <br />
                       <span className="font-normal text-[16px] leading-tight block lowercase">
-                        Close the talent gap on your internal staff
+                        <span className="uppercase">C</span>lose the talent gap
+                        on your internal staff
                       </span>
                     </li>
                   </ul>
