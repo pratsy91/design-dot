@@ -169,17 +169,15 @@ function App() {
               {/* Metrics content over the image */}
               <div className="absolute inset-0 z-20 flex px-[60px] justify-between font-bold text-white items-center">
                 <div className="flex flex-col items-center">
-                  <p className="text-[20px]">20 +</p>
-                  <p className="font-bold text-[12px] font-bold">
-                    YEARS IN BUSINESS
-                  </p>
+                  <p className="text-[24px]">20 +</p>
+                  <p className="text-[12px] font-bold">YEARS IN BUSINESS</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <p className="text-[20px]">900 +</p>
+                  <p className="text-[24px]">900 +</p>
                   <p className="text-[12px] font-bold">CLIENT'S WORLDWIDE</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <p className="text-[20px]">1700 +</p>
+                  <p className="text-[24px]">1700 +</p>
                   <p className="font-bold text-[12px]">PROJECT EXECUTED</p>
                 </div>
                 <div className="flex flex-col">
