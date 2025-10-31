@@ -51,8 +51,8 @@ function App() {
           </div>
           <div className="flex items-center justify-between">
             <div className="flex items-start gap-x-[50px] text-white">
-              <button className="bg-[#FF850F] w-[189px] h-[42px] rounded-[40px]">
-                FREE CONSULTAION
+              <button className="bg-[#FF850F] w-[189px] h-[42px] rounded-[40px] text-[16px]">
+                FREE CONSULTATION
               </button>
               <div className="flex gap-x-[20px]">
                 <p className="text-[14px] font-bold border-b-[3px] pb-2">
@@ -137,10 +137,10 @@ function App() {
                 <div className="bg-[#00539C] h-[534px] w-[2.5px]"></div>
                 <div className="mt-4 min-w-[400px]">
                   <p className="text-[#00539C] font-bold text-[16px]">
-                    ENGINEERING{" "}
-                    <span> ______________________________________</span>
+                    ENGINEERING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="border-b-2 w-[300px] inline-block border-[#00539C]"></span>
                   </p>
-                  <div className="flex justify-between mt-[70px] text-[#00539C] text-[12px]">
+                  <div className="flex justify-between mt-[70px] font-medium text-[#00539C] text-[12px]">
                     <div className="flex flex-col gap-y-[24px]">
                       {leftEngs.map((leftEng, index) => (
                         <p key={`${leftEng}-${index}`}>{leftEng}</p>
