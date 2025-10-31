@@ -46,7 +46,7 @@ function App() {
               <button className="bg-[#FF850F] w-[189px] h-[42px] rounded-[40px] text-[16px]">
                 FREE CONSULTATION
               </button>
-              <div className="flex md:flex-row flex-col gap-x-[20px]">
+              <div className="flex md:flex-row flex-col gap-x-[20px] gap-y-2 md:gap-y-0">
                 <p className="text-[14px] font-bold border-b-[3px] pb-2">
                   EXPERTISE
                 </p>
@@ -156,7 +156,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="relative md:h-[120px] h-[320px] w-full overflow-hidden z-10">
+            <div className="relative md:h-[120px] h-[400px] w-full overflow-hidden z-10">
               {/* Footer image filling the container */}
               <img
                 src="./footer.png"
