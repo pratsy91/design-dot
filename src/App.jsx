@@ -197,7 +197,7 @@ function App() {
           </div>
         </div>
         <div className="h-screen px-16 relative">
-          <div className="absolute -top-10 left-1/2 -translate-x-1/2 max-w-[85%] w-full -z-10">
+          <div className="absolute md:-top-28 -top-10 left-1/2 -translate-x-1/2 max-w-[85%] w-full -z-10">
             <img
               src="./bottom-image.png"
               alt=""
