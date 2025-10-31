@@ -41,14 +41,6 @@ function App() {
       <div className="">
         <div className="bg-[#141429] px-16 pt-8 relative ">
           <div className="pointer-events-none absolute -inset-1 grid-columns-bg mx-16 z-50"></div>
-          <div className="absolute -bottom-[500px] left-1/2 -translate-x-1/2 max-w-[85%] w-full">
-            <img
-              src="./bottom-image.png"
-              alt=""
-              className="w-full h-auto block"
-            />
-            {/* <div className="pointer-events-none absolute -inset-1 grid-columns-bg"></div> */}
-          </div>
           <div className="flex lg:flex-row flex-col items-center justify-between">
             <div className="flex min-[1200px]:flex-row flex-col items-center gap-x-[50px] text-white">
               <button className="bg-[#FF850F] w-[189px] h-[42px] rounded-[40px] text-[16px]">
@@ -164,7 +156,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="relative h-[120px] w-full overflow-hidden ">
+            <div className="relative md:h-[120px] h-[320px] w-full overflow-hidden ">
               {/* Footer image filling the container */}
               <img
                 src="./footer.png"
@@ -176,7 +168,7 @@ function App() {
               <div className="absolute inset-0 bg-black/50 z-10 pointer-events-none"></div>
 
               {/* Metrics content over the image */}
-              <div className="absolute inset-0 z-20 flex px-[60px] justify-between font-bold text-white items-center">
+              <div className="absolute inset-0 z-20 flex px-[60px] md:flex-row flex-col justify-between font-bold text-white items-center">
                 <div className="flex flex-col items-center">
                   <p className="text-[24px]">20 +</p>
                   <p className="text-[12px] font-bold">YEARS IN BUSINESS</p>
@@ -205,6 +197,14 @@ function App() {
           </div>
         </div>
         <div className="h-screen px-16 relative">
+          <div className="absolute -top-10 left-1/2 -translate-x-1/2 max-w-[85%] w-full -z-10">
+            <img
+              src="./bottom-image.png"
+              alt=""
+              className="w-full h-auto block"
+            />
+            {/* <div className="pointer-events-none absolute -inset-1 grid-columns-bg"></div> */}
+          </div>
           <div className="pointer-events-none absolute -inset-1 grid-columns-bg mx-16 z-50"></div>
         </div>
       </div>
