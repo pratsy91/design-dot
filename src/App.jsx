@@ -67,8 +67,12 @@ function App() {
                 <p className="text-[14px] font-bold">TECHNOLOGY</p>
                 <p className="text-[14px] font-bold">CORPORATE</p>
                 <p className="text-[14px] font-bold">CONTACT US</p>
-                <p className="flex items-start gap-x-2">
-                  <img src="./24-hour.png" alt="24 hour" />
+                <p className="flex items-start gap-x-2 text-[14px] font-bold">
+                  <img
+                    src="./24-hour.png"
+                    alt="24 hour"
+                    className="relative bottom-1"
+                  />
                   <span>+91</span> <span>9878282812</span>
                 </p>
               </div>
