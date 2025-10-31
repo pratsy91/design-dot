@@ -50,7 +50,7 @@ function App() {
             {/* <div className="pointer-events-none absolute -inset-1 grid-columns-bg"></div> */}
           </div>
           <div className="flex items-center justify-between">
-            <div className="flex items-start gap-x-[50px] text-white">
+            <div className="flex items-center gap-x-[50px] text-white">
               <button className="bg-[#FF850F] w-[189px] h-[42px] rounded-[40px] text-[16px]">
                 FREE CONSULTATION
               </button>
@@ -81,32 +81,34 @@ function App() {
               <div>
                 <img src="./freepik.png" alt="" />
                 <div className="text-black mt-[32px] text-[20px] font-bold">
-                  <p className="leading-none text-[24px]">Engagement Models</p>
+                  <p className="leading-none text-[24px] uppercase">
+                    Engagement Models
+                  </p>
                   <p className="text-[16px]">
                     <span>Hiring Software Developers</span>
                     <span className="font-normal">
                       , It only takes a few clicks
                     </span>
                   </p>
-                  <ul className="flex flex-col gap-y-[12px] mt-8 ml-[70px] max-w-[350px]">
-                    <li className="leading-none">
+                  <ul className="flex flex-col gap-y-[12px] mt-8 ml-[50px] max-w-[350px]">
+                    <li className="leading-none uppercase">
                       Dedicated Teams of Developers
                       <br />
-                      <span className="font-normal text-[16px] leading-tight block">
+                      <span className="font-normal text-[16px] leading-tight block lowercase">
                         Hire developers who are committed to your project.
                       </span>
                     </li>
-                    <li className="leading-none">
+                    <li className="leading-none uppercase">
                       Outsource your work
                       <br />
-                      <span className="font-normal text-[16px] leading-tight block">
+                      <span className="font-normal text-[16px] leading-tight block lowercase">
                         Get a solution that is tailored to your needs.
                       </span>
                     </li>
-                    <li className="leading-none">
+                    <li className="leading-none uppercase">
                       staff augmentation
                       <br />
-                      <span className="font-normal text-[16px] leading-tight block">
+                      <span className="font-normal text-[16px] leading-tight block lowercase">
                         Close the talent gap on your internal staff
                       </span>
                     </li>
@@ -115,7 +117,7 @@ function App() {
               </div>
               <div className="flex gap-x-10">
                 <div className="mt-4">
-                  <span className="font-bold leading-[30px] mb-0 text-[16px] p-1 rounded text-white bg-[#00539C] ">
+                  <span className="font-bold leading-[30px] mb-0 text-[16px] px-2 py-1 rounded text-white bg-[#00539C] ">
                     ENGINEERING
                   </span>
                   <ul className="flex flex-col gap-y-[20px] mt-6 ml-4">
