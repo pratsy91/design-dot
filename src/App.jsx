@@ -40,7 +40,7 @@ function App() {
     <>
       <div className="">
         <div className="bg-[#141429] px-16 pt-8 relative pb-32 ">
-          <div className="pointer-events-none absolute -inset-1 grid-columns-bg mx-16 z-50"></div>
+          {/* <div className="pointer-events-none absolute -inset-1 grid-columns-bg mx-16 z-50"></div> */}
           <div className="flex lg:flex-row flex-col items-center justify-between">
             <div className="flex min-[1200px]:flex-row flex-col items-center gap-x-[50px] text-white">
               <button className="bg-[#FF850F] w-[189px] h-[42px] rounded-[40px] text-[16px]">
@@ -205,7 +205,7 @@ function App() {
             />
             {/* <div className="pointer-events-none absolute -inset-1 grid-columns-bg"></div> */}
           </div>
-          <div className="pointer-events-none absolute -inset-1 grid-columns-bg mx-16 z-50"></div>
+          {/* <div className="pointer-events-none absolute -inset-1 grid-columns-bg mx-16 z-50"></div> */}
         </div>
       </div>
     </>
